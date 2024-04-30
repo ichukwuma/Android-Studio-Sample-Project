@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4A672"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on an button"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/images"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/s1" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Brown"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:backgroundTint="#795548"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="680dp"
+        android:paddingTop="10dp"
+        android:drawableLeft="@drawable/for_brown"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Pink"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="#FFC0CB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        android:paddingTop="10dp"
+        android:drawableLeft="@drawable/bedtime_pink"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="Yellow"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:backgroundTint="#FFFF00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="760dp"
+        android:paddingTop="10dp"
+        android:drawableLeft="@drawable/sun_yellow"/>
+
+
+</RelativeLayout>
